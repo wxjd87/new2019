@@ -1,2 +1,6 @@
-Q1: if occurring the error "unable to lock /var/lib/dpkg/" when you want to install some software
+﻿Q1: if occurring the error "unable to lock /var/lib/dpkg/" when you want to install some software
 A1: using the following command:sudo rm /var/lib/dpkg/lock;sudo dpkg --configure -a
+
+Q2:how to install node.js
+A2:Download sourcefile;tar -xzf xxxx;cd ;./configure;make(taking lots of time);sudo make install;
+
