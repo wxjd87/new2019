@@ -4,3 +4,12 @@ A1: using the following command:sudo rm /var/lib/dpkg/lock;sudo dpkg --configure
 Q2:how to install node.js
 A2:Download sourcefile;tar -xzf xxxx;cd ;./configure;make(taking lots of time);sudo make install;
 
+
+git add filename
+git commit -m “xxxx”
+git log:look for modify log;show git commit history
+git reflog:look for command log history with modify ID,which can be used to drawback by using “git reset –hard nnn” command
+
+
+
+
